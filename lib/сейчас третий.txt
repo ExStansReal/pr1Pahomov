@@ -1,0 +1,420 @@
+  Widget build(BuildContext context) {
+    return Scaffold(
+        body: Center(
+            child: SingleChildScrollView(
+                child: Column(children: [
+      Stack(children: [
+        Container(
+          margin: EdgeInsets.fromLTRB(33, 10, 0, 0),
+          child: Text(
+            'Meditate',
+            style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+                fontFamily: 'PlusJakartaSans'),
+          ),
+        ),
+        Container(
+          child: Image.asset(
+            'Assets/loop.png',
+          ),
+          margin: EdgeInsets.fromLTRB(370, 5, 0, 0),
+        ),
+        Container(
+            width: 52,
+            margin: EdgeInsets.fromLTRB(15, 50, 0, 0),
+            child: ElevatedButton(
+                onPressed: () => {},
+                style: ElevatedButton.styleFrom(
+                    primary: Color.fromRGBO(3, 158, 162, 1),
+                    padding: const EdgeInsets.all(20),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(50))),
+                child: const Text(
+                  'All',
+                  textDirection: TextDirection.ltr,
+                  style: TextStyle(
+                    fontSize: 10,
+                    fontWeight: FontWeight.normal,
+                    fontStyle: FontStyle.normal,
+                    color: Colors.white,
+                  ),
+                ))),
+        Container(
+            width: 103,
+            margin: EdgeInsets.fromLTRB(70, 50, 0, 0),
+            child: ElevatedButton(
+                onPressed: () => {},
+                style: ElevatedButton.styleFrom(
+                    primary: Color.fromRGBO(230, 254, 255, 1),
+                    padding: const EdgeInsets.all(20),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(50))),
+                child: const Text(
+                  'Bible In a Year',
+                  textDirection: TextDirection.ltr,
+                  style: TextStyle(
+                    fontSize: 10,
+                    fontWeight: FontWeight.normal,
+                    fontStyle: FontStyle.normal,
+                    color: Color.fromRGBO(3, 158, 168, 1),
+                  ),
+                ))),
+        Container(
+            width: 70,
+            margin: EdgeInsets.fromLTRB(175, 50, 0, 0),
+            child: ElevatedButton(
+                onPressed: () => {},
+                style: ElevatedButton.styleFrom(
+                    primary: Color.fromRGBO(230, 254, 255, 1),
+                    padding: const EdgeInsets.all(20),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(50))),
+                child: const Text(
+                  'Dailies',
+                  textDirection: TextDirection.ltr,
+                  style: TextStyle(
+                    fontSize: 10,
+                    fontWeight: FontWeight.normal,
+                    fontStyle: FontStyle.normal,
+                    color: Color.fromRGBO(3, 158, 168, 1),
+                  ),
+                ))),
+        Container(
+            width: 76,
+            margin: EdgeInsets.fromLTRB(245, 50, 0, 0),
+            child: ElevatedButton(
+                onPressed: () => {},
+                style: ElevatedButton.styleFrom(
+                    primary: Color.fromRGBO(230, 254, 255, 1),
+                    padding: const EdgeInsets.all(20),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(50))),
+                child: const Text(
+                  'Minutes',
+                  textDirection: TextDirection.ltr,
+                  style: TextStyle(
+                    fontSize: 10,
+                    fontWeight: FontWeight.normal,
+                    fontStyle: FontStyle.normal,
+                    color: Color.fromRGBO(3, 158, 168, 1),
+                  ),
+                ))),
+        Container(
+            width: 70,
+            margin: EdgeInsets.fromLTRB(320, 50, 0, 0),
+            child: ElevatedButton(
+                onPressed: () => {},
+                style: ElevatedButton.styleFrom(
+                    primary: Color.fromRGBO(230, 254, 255, 1),
+                    padding: const EdgeInsets.all(20),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(50))),
+                child: const Text(
+                  'Noven',
+                  textDirection: TextDirection.ltr,
+                  style: TextStyle(
+                    fontSize: 10,
+                    fontWeight: FontWeight.normal,
+                    fontStyle: FontStyle.normal,
+                    color: Color.fromRGBO(3, 158, 168, 1),
+                  ),
+                ))),
+        Container(
+            child: Image.asset(
+              'Assets/moon.png',
+            ),
+            margin: EdgeInsets.fromLTRB(5, 105, 5, 0)),
+        Container(
+          margin: EdgeInsets.fromLTRB(33, 340, 0, 0),
+          child: Text(
+            'A Song of Moon',
+            style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+                fontFamily: 'PlusJakartaSans'),
+          ),
+        ),
+        Container(
+          margin: EdgeInsets.fromLTRB(33, 365, 0, 0),
+          child: Text(
+            'Start with the basics',
+            style: TextStyle(fontSize: 14, fontFamily: 'PlusJakartaSans'),
+          ),
+        ),
+        Container(
+            child: Image.asset(
+              'Assets/heart.png',
+            ),
+            margin: EdgeInsets.fromLTRB(33, 385, 0, 0)),
+        Container(
+          margin: EdgeInsets.fromLTRB(50, 385, 0, 0),
+          child: Text(
+            '9 Sessions',
+            style: TextStyle(
+                fontSize: 14,
+                fontFamily: 'PlusJakartaSans',
+                color: Colors.grey),
+          ),
+        ),
+        Container(
+          margin: EdgeInsets.fromLTRB(330, 385, 0, 0),
+          child: Text(
+            'Start',
+            style: TextStyle(
+                fontSize: 14,
+                fontFamily: 'PlusJakartaSans',
+                color: Colors.grey),
+          ),
+        ),
+        Container(
+          margin: EdgeInsets.fromLTRB(365, 382, 0, 0),
+          child: Text(
+            '>',
+            style: TextStyle(fontSize: 18, fontFamily: 'PlusJakartaSans'),
+          ),
+        ),
+        Container(
+            child: Image.asset(
+              'Assets/Sky2.png',
+            ),
+            margin: EdgeInsets.fromLTRB(15, 420, 0, 0)),
+
+        Container(
+          margin: EdgeInsets.fromLTRB(15, 525, 15, 0),
+          child: Text(
+            'The Sleep Hour',
+            style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+                fontFamily: 'PlusJakartaSans'),
+          ),
+        ),
+        Container(
+          margin: EdgeInsets.fromLTRB(15, 550, 15, 0),
+          child: Text(
+            'Ashna Mukherjree',
+            style: TextStyle(
+                fontWeight: FontWeight.normal,
+                fontSize: 14,
+                fontFamily: 'PlusJakartaSans',
+                color: Colors.grey),
+          ),
+        ),
+        Container(
+            child: Image.asset(
+              'Assets/heart.png',
+            ),
+            margin: EdgeInsets.fromLTRB(15, 575, 15, 0)),
+        Container(
+          margin: EdgeInsets.fromLTRB(50, 575, 0, 0),
+          child: Text(
+            '3 Sessions',
+            style: TextStyle(
+                fontSize: 14,
+                fontFamily: 'PlusJakartaSans',
+                color: Colors.grey),
+          ),
+        ),
+        Container(
+          margin: EdgeInsets.fromLTRB(145, 575, 0, 0),
+          child: Text(
+            'Start',
+            style: TextStyle(
+                fontSize: 14,
+                fontFamily: 'PlusJakartaSans',
+                color: Colors.grey),
+          ),
+        ),
+        Container(
+          margin: EdgeInsets.fromLTRB(180, 572, 0, 0),
+          child: Text(
+            '>',
+            style: TextStyle(fontSize: 18, fontFamily: 'PlusJakartaSans'),
+          ),
+        ),
+//правя верхняя
+        Container(
+            child: Image.asset(
+              'Assets/Sky3.png',
+            ),
+            margin: EdgeInsets.fromLTRB(200, 420, 0, 0)),
+        Container(
+          margin: EdgeInsets.fromLTRB(200, 525, 0, 0),
+          child: Text(
+            'Easy on the Mission',
+            style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 18,
+                fontFamily: 'PlusJakartaSans'),
+          ),
+        ),
+
+        Container(
+          margin: EdgeInsets.fromLTRB(200, 550, 0, 0),
+          child: Text(
+            'Peter Mach',
+            style: TextStyle(
+                fontWeight: FontWeight.normal,
+                fontSize: 14,
+                fontFamily: 'PlusJakartaSans',
+                color: Colors.grey),
+          ),
+        ),
+        Container(
+            child: Image.asset(
+              'Assets/heart.png',
+            ),
+            margin: EdgeInsets.fromLTRB(200, 575, 0, 0)),
+        Container(
+          margin: EdgeInsets.fromLTRB(217, 575, 0, 0),
+          child: Text(
+            '5 minutes',
+            style: TextStyle(
+                fontSize: 14,
+                fontFamily: 'PlusJakartaSans',
+                color: Colors.grey),
+          ),
+        ),
+        Container(
+          margin: EdgeInsets.fromLTRB(330, 575, 0, 0),
+          child: Text(
+            'Start',
+            style: TextStyle(
+                fontSize: 14,
+                fontFamily: 'PlusJakartaSans',
+                color: Colors.grey),
+          ),
+        ),
+        Container(
+          margin: EdgeInsets.fromLTRB(370, 572, 0, 0),
+          child: Text(
+            '>',
+            style: TextStyle(fontSize: 18, fontFamily: 'PlusJakartaSans'),
+          ),
+        ),
+//левая нижняя
+        Container(
+            child: Image.asset(
+              'Assets/Sky4.png',
+            ),
+            margin: EdgeInsets.fromLTRB(15, 610, 0, 0)),
+
+        Container(
+          margin: EdgeInsets.fromLTRB(15, 715, 0, 0),
+          child: Text(
+            'Relax with me',
+            style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+                fontFamily: 'PlusJakartaSans'),
+          ),
+        ),
+        Container(
+          margin: EdgeInsets.fromLTRB(15, 740, 0, 0),
+          child: Text(
+            'Amanda James',
+            style: TextStyle(
+                fontWeight: FontWeight.normal,
+                fontSize: 14,
+                fontFamily: 'PlusJakartaSans',
+                color: Colors.grey),
+          ),
+        ),
+        Container(
+            child: Image.asset(
+              'Assets/heart.png',
+            ),
+            margin: EdgeInsets.fromLTRB(15, 770, 0, 0)),
+        Container(
+          margin: EdgeInsets.fromLTRB(35, 770, 0, 0),
+          child: Text(
+            '3 Sessions',
+            style: TextStyle(
+                fontSize: 14,
+                fontFamily: 'PlusJakartaSans',
+                color: Colors.grey),
+          ),
+        ),
+        Container(
+          margin: EdgeInsets.fromLTRB(140, 770, 0, 0),
+          child: Text(
+            'Start',
+            style: TextStyle(
+                fontSize: 14,
+                fontFamily: 'PlusJakartaSans',
+                color: Colors.grey),
+          ),
+        ),
+        Container(
+          margin: EdgeInsets.fromLTRB(180, 768, 0, 0),
+          child: Text(
+            '>',
+            style: TextStyle(fontSize: 18, fontFamily: 'PlusJakartaSans'),
+          ),
+        ),
+
+        //верхня правая
+        Container(
+            child: Image.asset(
+              'Assets/Sky5.png',
+            ),
+            margin: EdgeInsets.fromLTRB(200, 610, 0, 0)),
+        Container(
+          margin: EdgeInsets.fromLTRB(200, 715, 0, 0),
+          child: Text(
+            'Sun and Energy',
+            style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+                fontFamily: 'PlusJakartaSans'),
+          ),
+        ),
+
+        Container(
+          margin: EdgeInsets.fromLTRB(200, 740, 0, 0),
+          child: Text(
+            'Michael Hiu',
+            style: TextStyle(
+                fontWeight: FontWeight.normal,
+                fontSize: 14,
+                fontFamily: 'PlusJakartaSans',
+                color: Colors.grey),
+          ),
+        ),
+
+        Container(
+            child: Image.asset(
+              'Assets/heart.png',
+            ),
+            margin: EdgeInsets.fromLTRB(200, 770, 0, 0)),
+        Container(
+          margin: EdgeInsets.fromLTRB(217, 770, 0, 0),
+          child: Text(
+            '5 minutes',
+            style: TextStyle(
+                fontSize: 14,
+                fontFamily: 'PlusJakartaSans',
+                color: Colors.grey),
+          ),
+        ),
+        Container(
+          margin: EdgeInsets.fromLTRB(320, 770, 0, 0),
+          child: Text(
+            'Start',
+            style: TextStyle(
+                fontSize: 14,
+                fontFamily: 'PlusJakartaSans',
+                color: Colors.grey),
+          ),
+        ),
+        Container(
+          margin: EdgeInsets.fromLTRB(360, 768, 0, 0),
+          child: Text(
+            '>',
+            style: TextStyle(fontSize: 18, fontFamily: 'PlusJakartaSans'),
+          ),
+        ),
+      ])
+    ]))));
+  }

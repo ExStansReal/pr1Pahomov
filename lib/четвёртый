@@ -1,0 +1,74 @@
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 3, 157, 162),
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Spacer(),
+          Text("medinow",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                  fontSize: 40,
+                  fontWeight: FontWeight.w400,
+                  color: Colors.white)),
+          Text("Meditate With Us!",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.w400,
+                  color: Colors.white)),
+          Spacer(),
+          Container(
+            height: 50,
+            margin: const EdgeInsets.only(top: 12.0, left: 24, right: 24),
+            child: ElevatedButton(
+              onPressed: () {},
+              child: Text("Sign in with Apple"),
+              style: ButtonStyle(
+                shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                  RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(18.0),
+                  ),
+                ),
+                backgroundColor: MaterialStateProperty.all(Colors.white),
+                foregroundColor:
+                    MaterialStateProperty.all(Color.fromRGBO(0, 0, 0, 1)),
+              ),
+            ),
+          ),
+          Container(
+            height: 50,
+            margin: const EdgeInsets.only(top: 12.0, left: 24, right: 24),
+            child: ElevatedButton(
+              onPressed: () {},
+              child: Text("Continue with Email or Phone"),
+              style: ButtonStyle(
+                shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                  RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(18.0),
+                  ),
+                ),
+                backgroundColor:
+                    MaterialStateProperty.all(Color.fromRGBO(205, 253, 254, 1)),
+                foregroundColor:
+                    MaterialStateProperty.all(Color.fromRGBO(0, 0, 0, 1)),
+              ),
+            ),
+          ),
+          Container(
+            margin: const EdgeInsets.only(top: 8),
+            child: const Text("Continue With Google",
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.w400,
+                    color: Colors.white)),
+          ),
+          Spacer(),
+          Container(child: Image.asset('Assets/4.png'))
+        ],
+      ),
+    );
+  }
+
