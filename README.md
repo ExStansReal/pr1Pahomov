@@ -1,16 +1,5 @@
-# projectview
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+В моем проекте для вывода картинок создал папку Assets. 
+В файле pubspec.yaml я разрешил использование этого файла как асеты для программы
+После я начал программировать все карточки. Четвёртую карточку я выполнил нормально, но при создании 2 и 3 карточки, постоянно ругался код, в следствии чего пришлось очень коряво программировать и из-за чего использовал просто контейнеры, которые после с помощью margin двигал в необходимые места и вставлял картинки, настраивал текст
+В папке lib в файле вторая.txt находится build для второй карточки, в сейчас третий.text - третья карточка и в четвёртый находится четвёртая карточка
+По окончанию выполнения данной практической работы, получил навыки по настройке проекта и по созданию карточек, а так-же навыки по работе с firgma
